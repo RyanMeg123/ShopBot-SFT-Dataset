@@ -49,7 +49,7 @@ def load_data(data_path):
         for line in f:
             item = json.loads(line.strip())
             data.append(item)
-    print(f"✅ 加载了 {len(data)} 条训练数据")
+    print(f"✅ 加载了 {len(data)} 条训练数据1")
     return data
 
 
